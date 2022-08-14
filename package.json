@@ -4,8 +4,10 @@
   "main": "main.js",
   "repository": "https://github.com/emrekayik/studioek.git",
   "author": "Emre Kayık",
-  
   "license": "MIT",
+  "scripts":{
+      "start": "electron ."
+  },
   "devDependencies": {
     "electron": "^20.0.2"
   }

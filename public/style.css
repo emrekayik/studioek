@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* -webkit-app-region: drag; */
+    -webkit-user-select: none;
+    height: 100vh;
+    transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #6F6BF2;
+        color: #EBEDF2;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #EBEDF2;
+        color: #6F6BF2;
+    }
+}
+
+/* Dark Mode Toggle */
